@@ -1,14 +1,8 @@
 {
-  "name": "forpost",
+  "name": "fara",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "author": "Derick Ben",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
@@ -17,5 +11,12 @@
     "nodemailer-html-to-text": "^3.0.0",
     "sweetalert2": "^8.8.3",
     "xoauth2": "^1.2.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Derick Ben",
+  "license": "ISC"
 }
