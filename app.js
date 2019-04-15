@@ -13,12 +13,6 @@ app.use(express.static(__dirname +"/public"));
 
 app.get("/", (req, res) => {
     res.render("index");
-    Swal.fire({
-        title: 'Error!',
-        text: 'Do you want to continue',
-        type: 'error',
-        confirmButtonText: 'Cool'
-      });
 });
 
 
