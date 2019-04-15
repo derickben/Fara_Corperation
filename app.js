@@ -76,6 +76,6 @@ app.post("/send", (req, res) => {
 });
 
 
-app.listen(3000 || process.env.PORT, '127.0.0.1', () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log("Fara server has started"); 
 });
